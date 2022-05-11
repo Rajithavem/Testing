@@ -39,7 +39,7 @@ public class Main {
         }
         else {
             System.out.println(false);
-
         }
+        System.out.println("Git testing");
     }
 }
