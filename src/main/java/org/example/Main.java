@@ -41,5 +41,6 @@ public class Main {
             System.out.println(false);
         }
         System.out.println("Git testing");
+        System.out.println("maven");
     }
 }
