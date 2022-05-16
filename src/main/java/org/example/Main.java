@@ -13,8 +13,14 @@ public class Main {
         int number1 = 100;
         int number2 = 200;
         int numberTotal = AddNumbers(number1, number2);
+        int numberTotal1 = AddNumbers(33, 56);
         int numbersUBTRACT = SubtractNumbers(number1,number2);
         System.out.println("Subtract output: "+numbersUBTRACT);
+
+        int abc = MultiplicationNumbers(100,200);
+        System.out.println("Multication output: "+ abc);
+        int xy =Division(4000,200);
+        System.out.println("Division: "+xy);
         int total = 350;
         if(total==numberTotal)
         {
@@ -50,9 +56,18 @@ public class Main {
         return total;
     }
     public static int SubtractNumbers(int a, int b){
-        int total =a-b;
+        int total = a-b;
         return total;
     }
+    public static int MultiplicationNumbers(int f,int g){
+        int multiplication = f*g;
+        return multiplication;
+    }
+    public static int Division(int x,int y){
+        int division = x/y;
+        return division;
+    }
+
 
 
 
