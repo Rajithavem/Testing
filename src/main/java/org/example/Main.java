@@ -4,16 +4,17 @@ import java.time.LocalDateTime;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-     System.out.println("learning");
-     System.out.println(100+200);
+        System.out.println("learning");
+        System.out.println(100+200);
         System.out.println("100+200="+(100+200));
         System.out.println(4490-621);
         System.out.println("4490-621="+(4490-621));
         System.out.println("current datetime: "+ LocalDateTime.now());
         int number1 = 100;
         int number2 = 200;
-
-        int numberTotal = number1+number2;
+        int numberTotal = AddNumbers(number1, number2);
+        int numbersUBTRACT = SubtractNumbers(number1,number2);
+        System.out.println("Subtract output: "+numbersUBTRACT);
         int total = 350;
         if(total==numberTotal)
         {
@@ -43,6 +44,16 @@ public class Main {
         System.out.println("maven");
         System.out.println("Eclipse");
     }
+
+    public static int AddNumbers(int a, int b){
+        int total = a +b;
+        return total;
+    }
+    public static int SubtractNumbers(int a, int b){
+        int total =a-b;
+        return total;
+    }
+
 
 
 }
